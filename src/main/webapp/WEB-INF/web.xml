@@ -9,4 +9,31 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>departmentController</servlet-name>
+  <servlet-class>com.winter.app.departments.DepartmentController</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>departmentController</servlet-name>
+  <url-pattern>/departments/*</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>locationController</servlet-name>
+  <servlet-class>com.winter.app.locations.LocationController</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>locationController</servlet-name>
+  <url-pattern>/locations/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
 </web-app>
