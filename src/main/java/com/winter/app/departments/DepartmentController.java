@@ -52,7 +52,9 @@ public class DepartmentController extends HttpServlet {
 		String method = request.getMethod();
 		StringBuffer sb = request.getRequestURL();
 		String uri =request.getRequestURI();
-			
+		
+		//parameter
+		String department_id = request.getParameter("department_id");
 //		System.out.println(method);
 //		System.out.println(sb.toString());
 //		System.out.println(uri);
@@ -92,7 +94,7 @@ public class DepartmentController extends HttpServlet {
 		writer.close();
 		
 	}else{
-		departmentDAO.getDetail();
+		departmentDAO.getDetail(null);
 	}
 	
 	}catch(Exception e) {

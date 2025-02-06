@@ -6,6 +6,7 @@ public class DepartmentDTO {
 	private String department_name;
 	private long manager_id;
 	private long location_id;
+	
 	public long getDepartment_id() {
 		return department_id;
 	}
