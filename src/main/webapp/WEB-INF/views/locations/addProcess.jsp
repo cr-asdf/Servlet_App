@@ -10,7 +10,7 @@
 	String address = request.getParameter("street_address");
 	
 	
-	locationDTO.setLocation_id(name);
+	//locationDTO.setLocation_id(Long.parseLong("location_id"));
 	locationDTO.setCity(city);
 	locationDTO.setStreet_address(address);
 	

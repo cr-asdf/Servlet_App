@@ -31,6 +31,10 @@ public class DepartmentDTO {
 	public void setLocation_id(long location_id) {
 		this.location_id = location_id;
 	}
+	public int update(DepartmentDTO departmentDTO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 }

@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%
+	String str = (String)request.getAttribute("result");
+%>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,10 +10,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-			<h1>Home Page</h1>
-			
-			<a href="/departments/list.jsp">Department List</a>
-			<a href="/locations/list.jsp">Location List</a>
+<script type="text/javascript">
+	alert('<%= str%>');
+	location.href="./list.do";
+</script>
 </body>
 </html>
