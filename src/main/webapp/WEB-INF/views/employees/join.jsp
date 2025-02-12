@@ -61,6 +61,8 @@
 						<fieldset>
 							<button type="submit">사원등록</button>
 						</fieldset>				
+						
+							
 				</form>
 				</div>
 			</div>
