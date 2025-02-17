@@ -41,5 +41,5 @@ public class ProductDTO {
 	public void setProductdetail(Long productdetail) {
 		this.productdetail = productdetail;
 	}
-	
+}
 	
